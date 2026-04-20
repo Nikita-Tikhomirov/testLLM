@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-04-20T09:55:21.627236+00:00",
+  "local_summary": {
+    "count": 0,
+    "first_draft_avg": 0.0,
+    "ready_avg": 0.0,
+    "defects_avg": 0.0,
+    "cloud_calls_avg": 0.0,
+    "success_rate": 0.0
+  },
+  "cloud_summary": {
+    "count": 0,
+    "first_draft_avg": 0.0,
+    "ready_avg": 0.0,
+    "defects_avg": 0.0,
+    "cloud_calls_avg": 0.0,
+    "success_rate": 0.0
+  },
+  "gate": {
+    "cloud_calls_reduction": 0.0,
+    "cloud_calls_reduction_ok": false,
+    "success_drop_pp": 0.0,
+    "success_ok": true,
+    "defects_delta": 0.0,
+    "defects_ok": true,
+    "local_accept": 0.0,
+    "local_accept_ok": false,
+    "passed": false
+  },
+  "stability": {
+    "watchdog_restarts_day": 0,
+    "crash_count": 0,
+    "successful_runs_without_manual": 0
+  }
+}
