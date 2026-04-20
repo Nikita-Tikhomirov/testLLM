@@ -1,31 +1,60 @@
 {
-  "generated_at": "2026-04-20T09:55:21.627236+00:00",
+  "generated_at": "2026-04-20T10:44:32.493577+00:00",
   "local_summary": {
-    "count": 0,
-    "first_draft_avg": 0.0,
-    "ready_avg": 0.0,
+    "count": 24,
+    "first_draft_avg": 0.4333,
+    "ready_avg": 0.4433,
     "defects_avg": 0.0,
     "cloud_calls_avg": 0.0,
-    "success_rate": 0.0
+    "success_rate": 1.0
   },
   "cloud_summary": {
-    "count": 0,
-    "first_draft_avg": 0.0,
-    "ready_avg": 0.0,
+    "count": 24,
+    "first_draft_avg": 2.1,
+    "ready_avg": 2.11,
     "defects_avg": 0.0,
-    "cloud_calls_avg": 0.0,
-    "success_rate": 0.0
+    "cloud_calls_avg": 1.0,
+    "success_rate": 1.0
   },
   "gate": {
-    "cloud_calls_reduction": 0.0,
-    "cloud_calls_reduction_ok": false,
+    "interpretable": true,
+    "cloud_calls_reduction": 1.0,
+    "cloud_calls_reduction_ok": true,
     "success_drop_pp": 0.0,
     "success_ok": true,
     "defects_delta": 0.0,
     "defects_ok": true,
-    "local_accept": 0.0,
-    "local_accept_ok": false,
-    "passed": false
+    "local_accept": 1.0,
+    "local_accept_ok": true,
+    "pair_count": 24,
+    "pair_count_target": 24,
+    "passed": true,
+    "verdict": "pass"
+  },
+  "ab_meta": {
+    "pair_count": 24,
+    "pair_count_target": 24,
+    "complete_pair_coverage": true,
+    "missing_local_modes": [],
+    "missing_cloud_modes": [],
+    "expected_category_counts": {
+      "layout": 6,
+      "ui_logic": 8,
+      "bugfix": 5,
+      "refactor": 5
+    },
+    "pair_category_counts": {
+      "bugfix": 5,
+      "layout": 6,
+      "refactor": 5,
+      "ui_logic": 8
+    },
+    "category_missing": {
+      "layout": 0,
+      "ui_logic": 0,
+      "bugfix": 0,
+      "refactor": 0
+    }
   },
   "stability": {
     "watchdog_restarts_day": 0,
