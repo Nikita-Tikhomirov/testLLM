@@ -1,0 +1,44 @@
+﻿{
+  "entries": [
+    {
+      "task_id": "L01",
+      "mode": "LOCAL_FIRST",
+      "files_touched": 2,
+      "risk": "low",
+      "local_model_chain": "qwen2.5-coder:7b",
+      "local_passes": 1,
+      "retrieval_used": "no",
+      "retrieval_hit_score": "na",
+      "first_draft_sec": 18.2,
+      "ready_sec": 35.4,
+      "defects_found": 0,
+      "success": "yes",
+      "cloud_calls": 0,
+      "cloud_fallback": "no",
+      "fallback_trigger": "none",
+      "tests_passed": "yes",
+      "reason": "layout task completed with local first pass",
+      "notes": ""
+    },
+    {
+      "task_id": "L01",
+      "mode": "CLOUD_ONLY",
+      "files_touched": 2,
+      "risk": "low",
+      "local_model_chain": "none",
+      "local_passes": 0,
+      "retrieval_used": "no",
+      "retrieval_hit_score": "na",
+      "first_draft_sec": 10.8,
+      "ready_sec": 22.1,
+      "defects_found": 0,
+      "success": "yes",
+      "cloud_calls": 1,
+      "cloud_fallback": "no",
+      "fallback_trigger": "none",
+      "tests_passed": "yes",
+      "reason": "layout task completed with cloud only",
+      "notes": ""
+    }
+  ]
+}
